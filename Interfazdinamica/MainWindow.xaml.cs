@@ -30,11 +30,11 @@ namespace Interfazdinamica
             switch (cbInterfaz.SelectedIndex)
             {
                 case 0: //Alumnno
-                    Alumno.Visibility = Visibility.Visible;
+                    grdInterfaz.Children.Add(new Alumno());
                     break;
                 default:
                 case 1: //Maestro
-                    Maestro.Visibility = Visibility.Visible;
+                    
                     break;
             }
 

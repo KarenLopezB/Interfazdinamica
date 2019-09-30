@@ -7,11 +7,11 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="52,73,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top" Height="30" Width="103" FontSize="20"/>
-        <TextBlock HorizontalAlignment="Left" Margin="52,152,0,0" TextWrapping="Wrap" Text="Matricula:" VerticalAlignment="Top" Height="30" Width="103" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,47,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top" Height="19" Width="76"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,99,0,0" TextWrapping="Wrap" Text="Matricula:" VerticalAlignment="Top" Height="19" Width="92"/>
         <TextBlock HorizontalAlignment="Left" Margin="52,228,0,0" TextWrapping="Wrap" Text="Preparatoria:" VerticalAlignment="Top" Height="30" Width="132" FontSize="20"/>
-        <TextBox x:Name="txtNombreA" HorizontalAlignment="Left" Height="30" Margin="217,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" FontSize="20"/>
-        <TextBox x:Name="txtMatricula" HorizontalAlignment="Left" Height="30" Margin="217,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" FontSize="20"/>
+        <TextBox x:Name="txtNombreA" HorizontalAlignment="Left" Height="18" Margin="217,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="91"/>
+        <TextBox x:Name="txtMatricula" HorizontalAlignment="Left" Height="19" Margin="217,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="91" FontSize="20"/>
         <TextBox x:Name="txtPreparatoria" HorizontalAlignment="Left" Height="30" Margin="217,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" FontSize="20"/>
         <Button x:Name="btnGuardarA" Content="Guardar" HorizontalAlignment="Left" Margin="366,333,0,0" VerticalAlignment="Top" Width="124" FontSize="20"/>
         <Button x:Name="txtCancelarA" Content="Cancelar" HorizontalAlignment="Left" Margin="540,333,0,0" VerticalAlignment="Top" Width="124" FontSize="20"/>
