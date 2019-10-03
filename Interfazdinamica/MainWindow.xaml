@@ -12,8 +12,10 @@
             <ComboBoxItem>Alumno</ComboBoxItem>
             <ComboBoxItem>Maestro</ComboBoxItem>
         </ComboBox>
-        <Grid x:Name="grdInterfaz" HorizontalAlignment="Left" Height="199" Margin="28,67,0,0" VerticalAlignment="Top" Width="455"/>
-        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="337,25,0,0" VerticalAlignment="Top" Width="75" Click="BtnAgregar_Click"/>
+        <Grid x:Name="grdInterfaz" HorizontalAlignment="Left" Height="261" Margin="28,67,0,0" VerticalAlignment="Top" Width="491"/>
+        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="336,21,0,0" VerticalAlignment="Top" Width="83" Click="BtnAgregar_Click" FontSize="16"/>
+        <Button Visibility="Hidden" x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="475,308,0,0" VerticalAlignment="Top" Width="75" Click="BtnGuardar_Click"/>
+        <Button Visibility="Hidden" x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="618,308,0,0" VerticalAlignment="Top" Width="75" Click="BtnCancelar_Click"/>
 
     </Grid>
 </Window>

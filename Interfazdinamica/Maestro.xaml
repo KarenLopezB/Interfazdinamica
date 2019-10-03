@@ -7,16 +7,14 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="50,42,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top" FontSize="20" Height="33" Width="107"/>
-        <TextBlock HorizontalAlignment="Left" Margin="50,112,0,0" TextWrapping="Wrap" Text="Código:" VerticalAlignment="Top" FontSize="20" Height="33" Width="107"/>
-        <TextBlock HorizontalAlignment="Left" Margin="50,184,0,0" TextWrapping="Wrap" Text="Título:" VerticalAlignment="Top" FontSize="20" Height="33" Width="107"/>
-        <TextBlock HorizontalAlignment="Left" Margin="50,252,0,0" TextWrapping="Wrap" Text="Materia:" VerticalAlignment="Top" FontSize="20" Height="33" Width="107"/>
-        <TextBox x:Name="txtNombreM" HorizontalAlignment="Left" Height="33" Margin="239,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontSize="20"/>
-        <TextBox x:Name="txtCodigo" HorizontalAlignment="Left" Height="33" Margin="239,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontSize="20"/>
-        <TextBox x:Name="txtTitulo" HorizontalAlignment="Left" Height="33" Margin="239,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontSize="20"/>
-        <TextBox x:Name="txtMateria" HorizontalAlignment="Left" Height="33" Margin="239,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" FontSize="20"/>
-        <Button x:Name="btnGuardarM" Content="Guardar" HorizontalAlignment="Left" Margin="387,333,0,0" VerticalAlignment="Top" Width="124" FontSize="20"/>
-        <Button x:Name="btnCancelarM" Content="Cancelar" HorizontalAlignment="Left" Margin="548,333,0,0" VerticalAlignment="Top" Width="124" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,42,0,0" TextWrapping="Wrap" Text="Nombre:" VerticalAlignment="Top" Height="20" Width="64"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,93,0,0" TextWrapping="Wrap" Text="Código:" VerticalAlignment="Top" Height="22" Width="64"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,143,0,0" TextWrapping="Wrap" Text="Título:" VerticalAlignment="Top" Height="20" Width="64"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,200,0,0" TextWrapping="Wrap" Text="Materia:" VerticalAlignment="Top" Height="20" Width="64"/>
+        <TextBox x:Name="txtNombreM" HorizontalAlignment="Left" Height="20" Margin="239,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="txtCodigo" HorizontalAlignment="Left" Height="22" Margin="239,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="txtTitulo" HorizontalAlignment="Left" Height="20" Margin="239,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="txtMateria" HorizontalAlignment="Left" Height="20" Margin="239,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
 
     </Grid>
 </UserControl>

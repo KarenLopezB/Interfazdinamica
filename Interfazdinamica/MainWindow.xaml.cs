@@ -27,16 +27,8 @@ namespace Interfazdinamica
 
         private void BtnAgregar_Click(object sender, RoutedEventArgs e)
         {
-            switch (cbInterfaz.SelectedIndex)
-            {
-                case 0: //Alumnno
-                    grdInterfaz.Children.Add(new Alumno());
-                    break;
-                default:
-                case 1: //Maestro
-                    
-                    break;
-            }
+            btnGuardar.Visibility = Visibility.Visible;
+            btnCancelar.Visibility = Visibility.Visible;
 
         }
 
@@ -50,12 +42,28 @@ namespace Interfazdinamica
                         Add(new Alumno());
                     break;
                 default:
+
                     break;
                 case 1: //Maestro
                     grdInterfaz.Children.
                         Add(new Maestro());
                     break;
             }
+        }
+
+        private void BtnGuardar_Click(object sender, RoutedEventArgs e)
+        {
+            btnGuardar.Visibility = Visibility.Hidden;
+            btnCancelar.Visibility = Visibility.Hidden;
+            grdInterfaz.Children.Clear();
+
+        }
+
+        private void BtnCancelar_Click(object sender, RoutedEventArgs e)
+        {
+            btnGuardar.Visibility = Visibility.Hidden;
+            btnCancelar.Visibility = Visibility.Hidden;
+            grdInterfaz.Children.Clear();
         }
     }
 }
